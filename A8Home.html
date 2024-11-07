@@ -1,0 +1,84 @@
+<!-- Jeff Chernenko | A00745858 | COMP 2132 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Tab Title -->
+        <title>A8 | Home</title>
+
+        <!-- External Style Sheet CSS - Base and Reset -->
+        <link rel="stylesheet" href="css/a8_base.css">
+	    <link rel="stylesheet" href="css/a8_reset.css">
+
+        <!-- External Style Sheet Link for Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+        <!-- External JavaScript & JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="js/script.js" defer="defer"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Header Section & Navigation Bar -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="A8Home.html" class="active" target="_self">Home</a></li>
+                 </ul>
+            </nav>
+        </header>
+
+        <div id="pop-up" class="pop-up">
+            <p><strong>Instructions:</strong></p>
+            <p>To rotate the view of the bike, click on the 'Start' button. Stop the animation by clicking the 'Stop' button.</p><br>
+            <button id="btnClose">Close</button>
+        </div>
+
+        <div class="wrapper"> <!--Wrapper-->
+
+            <!-- Page Title -->
+            <div id="title">
+                <h1>Assignment 8</h1>
+            </div>
+
+            <!-- Container 1 -->
+            <div class="container">
+
+                <!-- Product 1 -->
+                <div class="product">
+
+                    <div class="product-title">
+                        <h3>Bike Product: LTD Race</h3>
+                    </div>
+
+                    <!-- Product-Image -->
+                    <div class="product-image">
+
+                        <img id="productImage" src="product-images/bike-1.jpg" alt="Product Image">
+
+                        <div class="buttons">
+                          <button class="buttonInteraction startButton" id="btnStart">Start</button>
+                          <button class="buttonInteraction stopButton" id="btnStop">Stop</button>
+                        </div>
+
+                    </div> <!--Product-Image-->
+                </div> <!--Product 1-->
+            </div> <!--Container-->
+        </div> <!--Wrapper-->
+
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-content">
+                <p>&copy; J.Chernenko A00745858 | COMP2132 Assignment 8 | All Rights Reserved.</p>
+            </div> <!--footer-content-->
+        </footer>
+    </body>
+</html>

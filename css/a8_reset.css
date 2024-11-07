@@ -1,0 +1,7 @@
+/*-- Jeff Chernenko | A00745858 | COMP 2132 */
+
+/* Box-sizing reset */
+
+* {
+  box-sizing: border-box;
+}
